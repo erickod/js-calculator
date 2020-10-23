@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A pure caculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="logic/main.js"></script>
+</head>
+<body>
+    <div app="caculator">
+        <div class="title text-center d-table center">
+            <div class="title-text v-middle">Calculadora</div>
+        </div>
+        <div class="body">
+            <div class="screen text-accent d-table">
+                <div class="v-middle">0</div>
+            </div>
+            <div class="keyboard">
+                <div class="col flex-container flex-space-around">
+                    <div class="btn btn-ce text-center key center">
+                        <div class="v-middle border" data-value="Delete" data-type="transform">C</div>
+                    </div>
+                    <div class="btn btn-signal text-center key">
+                        <div class="v-middle border" data-value="i" data-type="transform">+/-</div>
+                    </div>
+                    <div class="btn btn-percent text-center key">
+                        <div class="v-middle border" data-value="%" data-type="transform">%</div></div>
+                    <div class="btn btn-plus text-center op-key">
+                        <div class="v-middle border" data-value="+" data-type="operation">+</div>
+                    </div>
+                </div>
+                <div class="col flex-container flex-space-around">
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="1" data-type="value">1</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="2" data-type="value">2</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="3" data-type="value">3</div>
+                    </div>
+                    <div class="btn btn-minus text-center op-key">
+                        <div class="v-middle border" data-value="-" data-type="operation">-</div>
+                    </div>
+                </div>
+                <div class="col flex-container flex-space-around">
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="4" data-type="value">4</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="5" data-type="value">5</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="6" data-type="value">6</div>
+                    </div>
+                    <div class="btn btn-times text-center op-key">
+                        <div class="v-middle border" data-value="*" data-type="operation">*</div>
+                    </div>
+                </div>
+                <div class="col flex-container flex-space-around">
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="7" data-type="value">7</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="8" data-type="value">8</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="9" data-type="value">9</div>
+                    </div>
+                    <div class="btn btn-div text-center op-key">
+                        <div class="v-middle border" data-value="/" data-type="operation">/</div>
+                    </div>
+                </div>
+                <div class="col flex-container flex-space-around">
+                    <div class="btn btn-del text-center key">
+                        <div class="v-middle border" data-value="Backspace" data-type="transform">←</div>
+                    </div>
+                    <div class="btn btn-num text-center key">
+                        <div class="v-middle border" data-value="0" data-type="value">0</div>
+                    </div>
+                    <div class="btn btn-dot text-center key">
+                        <div class="v-middle border" data-value="." data-type="transform">.</div>
+                    </div>
+                    <div class="btn btn-equal text-center op-key bg-accent">
+                        <div class="v-middle border" data-value="Enter" data-type="equal">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

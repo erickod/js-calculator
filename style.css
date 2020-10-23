@@ -1,0 +1,62 @@
+/*
+200x345
+1:1,72
+0,579%
+*/
+
+:root {
+    --test:red;
+    --main:#e6e6e6;
+    --second:#ececec;
+    --third:#e6e6e6;
+    --accent: #1e90ff;
+    --accent1: #4d4d4d;
+    --border: #dfd8d8;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+html, body {height: 100vh;}
+html {font-size: 1.6em; color:var(--accent1);overflow: hidden;}
+
+.border {border: 1px solid  var(--border)}
+.d-table {display: table;}
+.flex-container {display: flex;}
+.flex-space-around {justify-content: space-around;}
+.text-center {text-align: center;}
+.v-middle {vertical-align: middle; display: table-cell;}
+.center {margin:0 auto;}
+
+.key { background-color: var(--second);}
+.op-key{ background-color: var(--third);}
+.bg-accent {background-color: var(--accent);}
+.text-accent {color: var(--accent);}
+
+
+[app] {height: 100%; font-size: 0.7em;}
+.title {height: 7.723478260869565%; background-color: #ececec; width: 100%;}
+.title-text {display: table-cell;}
+.body {height: 92.35913043478261vh;}
+
+.screen {
+    height: 25.14933333333333%; 
+    background-color: white; 
+    text-align: right; 
+    font-size: 2.3em;
+    width: 100%;
+    border-top: 1px solid var(--border);
+    }
+
+.keyboard {height: 69vh;}
+.col {height: 20%;}
+.btn {width: 25%; height: 100%; display: table; cursor: pointer; border: 0.5px solid white;}
+.btn:hover {background-color: var(--accent1); color: white;}
+.btn-equal {color:white;}
+.input{background-color: var(--accent1); color:white;}
